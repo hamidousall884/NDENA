@@ -3,37 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NDENA - Elevage, Agriculture & Commerce</title>
+<title>NDENA - Projet Agro-Pastoral | Mauritanie</title>
 <style>
-body{font-family:system-ui;margin:0;background:#f6faf6;color:#222}
-header{background:#0a5c36;color:white;padding:50px 20px;text-align:center}
-header h1{font-size:48px;margin:0;letter-spacing:4px}
-.btn{background:white;color:#0a5c36;padding:12px 28px;border-radius:30px;text-decoration:none;display:inline-block;margin-top:20px;font-weight:bold}
-.wrap{max-width:1050px;margin:auto;padding:30px 20px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:white;padding:25px;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,.08);border-top:6px solid #0a5c36}
-@media(max-width:800px){.grid{grid-template-columns:1fr}}
+body{margin:0;font-family:system-ui;background:#f8f9f3;color:#222}
+header{background:#0a5c36;color:white;padding:60px 20px;text-align:center}
+header h1{font-size:50px;margin:0;letter-spacing:3px}
+header p{font-size:20px;opacity:0.9;margin-top:15px}
+.nav{background:white;padding:15px;text-align:center;box-shadow:0 2px 10px #0001;position:sticky;top:0}
+.nav a{margin:0 15px;text-decoration:none;color:#0a5c36;font-weight:bold}
+.wrap{max-width:1100px;margin:auto;padding:30px 20px}
+.hero{background:white;border-radius:20px;padding:40px;margin:30px 0;box-shadow:0 10px 30px #0001}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:white;padding:30px;border-radius:15px;box-shadow:0 5px 20px #0002;border-top:5px solid #0a5c36}
+.card h3{color:#0a5c36}
+.btn{background:#0a5c36;color:white;padding:15px 30px;border-radius:30px;text-decoration:none;display:inline-block;font-weight:bold;margin-top:20px}
+footer{background:#111;color:white;text-align:center;padding:40px;margin-top:50px}
+@media(max-width:800px){.grid{grid-template-columns:1fr} header h1{font-size:32px}}
 </style>
 </head>
 <body>
 <header>
 <h1>NDENA</h1>
-<p>Projet Agro-Pastoral Intégré : Élevage, Agriculture et Commerce de produits locaux à Mauritanie</p>
-<a class="btn" href="https://wa.me/222XXXXXXXX">Commander sur WhatsApp</a>
+<p>Projet Agro-Pastoral Intégré - Élevage, Agriculture & Commerce Local en Mauritanie</p>
+<a class="btn" style="background:white;color:#0a5c36" href="#contact">Contactez-nous</a>
 </header>
+<div class="nav">
+<a href="#">Accueil</a>
+<a href="#elevage">Élevage</a>
+<a href="#agriculture">Agriculture</a>
+<a href="#commerce">Commerce</a>
+</div>
 <div class="wrap">
-<h2 style="color:#0a5c36;text-align:center">Nos 3 Piliers</h2>
+<div class="hero">
+<h2 style="color:#0a5c36">Bienvenue chez NDENA</h2>
+<p>Nous valorisons les produits locaux mauritaniens avec un élevage durable, une agriculture responsable et un commerce équitable de Nouakchott vers toute la Mauritanie.</p>
+</div>
 <div class="grid">
-<div class="card"><h3>🐄 Élevage</h3><p>Bovins, ovins, caprins. Viande de qualité, lait frais, élevage sain et suivi à Nouakchott.</p></div>
-<div class="card"><h3>🌱 Agriculture</h3><p>Légumes frais, fourrage, cultures adaptées au climat mauritanien. Production durable.</p></div>
-<div class="card"><h3>🛒 Commerce</h3><p>Vente directe du producteur au consommateur. Sans intermédiaire, frais, local, livré à Nouakchott.</p></div>
+<div class="card" id="elevage"><h3>🐄 Élevage</h3><p>Élevage bovin, ovin et caprin. Viande de qualité, lait frais et produits laitiers 100% locaux.</p></div>
+<div class="card" id="agriculture"><h3>🌾 Agriculture</h3><p>Maraîchage, fourrage et céréales adaptés au climat mauritanien pour l'autonomie alimentaire.</p></div>
+<div class="card" id="commerce"><h3>🛒 Commerce Local</h3><p>Distribution directe du producteur au consommateur. Frais, traçable et équitable.</p></div>
 </div>
-<div style="background:white;margin-top:30px;padding:25px;border-radius:16px">
-<h3 style="color:#0a5c36">Pourquoi choisir NDENA ?</h3>
-<p>Nous maîtrisons toute la chaîne. Nous élevons, nous cultivons, nous vendons. Vous avez la garantie d'un produit 100% local, traçable et frais. NDENA, c'est la fierté du terroir mauritanien.</p>
-<p>📍 Nouakchott, Mauritanie<br>📞 Commandes WhatsApp</p>
+<div class="hero" id="contact" style="text-align:center">
+<h2>Contact NDENA</h2>
+<p>Nouakchott, Mauritanie</p>
+<p>WhatsApp: +222 XX XX XX XX</p>
+<a class="btn" href="https://wa.me/22200000000">Commander sur WhatsApp</a>
 </div>
 </div>
-<footer style="background:#0a5c36;color:white;text-align:center;padding:20px;margin-top:20px">© 2026 NDENA - hamidousall884</footer>
+<footer>© 2026 NDENA - Tous droits réservés - Fierté Mauritanienne</footer>
 </body>
 </html>
